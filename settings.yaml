@@ -1,0 +1,9 @@
+---
+:gzip: true
+:force: false
+diff_file: "/work/sitebackup/daily.0/tiny.diff"
+save_file: "/work/sitebackup/daily.0/out.txt"
+my_mail: "ter.novzraion@yandex.ru"
+my_mail_login: "ter.novzraion@yandex.ru"
+my_mail_password: "a88zt4!6f"
+where_mail: "novzraion@yandex.ru"
