@@ -18,3 +18,14 @@ diff --exclude="_logs" -urN daily.0/remote_server/media/remote_server/ daily.1/r
 
 # move files to daily.0
 mv full.diff tiny.diff new.diff /home/strike/work/sitebackup/daily.0/
+
+# for crontab you may need absolut path
+# diff --exclude="_logs" -urq daily.0/remote_server/ daily.1/remote_server/ > /home/serv/sitebackup/new.diff
+# diff --exclude="_logs" -urqN daily.0/remote_server/ daily.1/remote_server/ > /home/serv/sitebackup/tiny.diff
+# diff --exclude="_logs" -urN daily.0/remote_server/ daily.1/remote_server/ > /home/serv/sitebackup/full.diff
+
+# # move files to daily.0
+# # mv full.diff tiny.diff new.diff /home/serv/sitebackup/daily.0/
+# mv /home/serv/sitebackup/full.diff /home/serv/sitebackup/daily.0/
+# mv /home/serv/sitebackup/tiny.diff /home/serv/sitebackup/daily.0/
+# mv /home/serv/sitebackup/new.diff /home/serv/sitebackup/daily.0/

@@ -16,3 +16,4 @@
 9. Измените настройки в файле settings.yaml
 10. Для запуска ruby скрипта Вам понадобится gem mailfactory. Установите его командой gem install mailfactory
 11. Создайте два правила в crontab для запуска doftpsync_makebackup_and_diff.sh и ptiny.rb командой crontab -e
+12. Для crontab понадобится задание абсолютных путей в doftpsync_makebackup_and_diff.sh
